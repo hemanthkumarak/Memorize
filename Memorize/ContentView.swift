@@ -21,7 +21,7 @@ struct ContentView: View {
                                                                 .aspectRatio(2/3, contentMode: .fit)
                                                                 .padding(.all)
                                                                 .onTapGesture {
-                                                                    
+                                                                    viewModel.choose(card)
                                                                 }
                     
                 }  ) })
