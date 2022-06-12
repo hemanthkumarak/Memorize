@@ -8,14 +8,14 @@
 import Foundation
 import SwiftUI
 
-class EmojiMemoryGame {
+class EmojiMemoryGame:ObservableObject {
     
     static var emojis = ["🚗", "🚌", "🏎", "🚑", "🚒", "🛻", "🚚",
                     "🚛", "🚜", "🚲", "🛵", "🏍", "🛺",
                     "🚃", "🚄", "🚂", "✈️", "🚀", "🚁",
                     "⛵️", "🚢", "🛰", "🛸"]
     
-    var model = MemoryGame<String>(numberOfPairsOfCards: 4, createCardContent: {pairIndex in emojis[pairIndex]})
+    @Published var model = MemoryGame<String>(numberOfPairsOfCards: 4, createCardContent: {pairIndex in emojis[pairIndex]})
     
     var cards: Array<MemoryGame<String>.Card> {
         model.cards

@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let viewModel: EmojiMemoryGame
-    @State var emojiCount = 10
+    @ObservedObject var viewModel: EmojiMemoryGame
     
     
     var body: some View {
@@ -21,7 +20,7 @@ struct ContentView: View {
                                                                 .aspectRatio(2/3, contentMode: .fit)
                                                                 .padding(.all)
                                                                 .onTapGesture {
-                                                                    
+                                                                    viewModel.choose(card)
                                                                 }
                     
                 }  ) })
