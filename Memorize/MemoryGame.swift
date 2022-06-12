@@ -28,7 +28,12 @@ struct MemoryGame<CardContent> {
     }
     
     func index(of card:Card) -> Int {
-        return 0
+        for index in 0..<cards.count {
+            if cards[index].id == card.id {
+                return index
+            }
+        }
+        return 0 //todo: Fix this!
     }
     
     struct Card:Identifiable {
