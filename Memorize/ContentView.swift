@@ -15,15 +15,14 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))], content: {
-                ForEach(viewModel.cards,
-                                content: {card in CardView(card: card)
-                                                                .aspectRatio(2/3, contentMode: .fit)
-                                                                .padding(.all)
-                                                                .onTapGesture {
-                                                                    viewModel.choose(card)
-                                                                }
+                ForEach(viewModel.cards)
+                                 {card in CardView(card: card)
+                                        .aspectRatio(2/3, contentMode: .fit)
+                                        .onTapGesture {
+                                            viewModel.choose(card)
+                                        }
                     
-                }  ) })
+                }   })
             
         }
             .foregroundColor(Color.blue)
@@ -35,7 +34,7 @@ struct ContentView: View {
 
 
 struct CardView: View {
-    @State var isFaceUp: Bool = true
+    
     var card: MemoryGame<String>.Card
 
     let shape = RoundedRectangle(cornerRadius: 20.0)
