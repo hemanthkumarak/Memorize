@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let viewModel: EmojiMemoryGame
-    @State var emojiCount = 10
+    @ObservedObject var viewModel: EmojiMemoryGame
     
     
     var body: some View {
