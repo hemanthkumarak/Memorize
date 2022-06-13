@@ -23,19 +23,20 @@ struct MemoryGame<CardContent> {
     }
     
     mutating func choose(_ card: Card) {
-        if let chosenIndex = index(of: card) {
+//        if let chosenIndex = index(of: card) {
+        if let chosenIndex = cards.firstIndex(where: {aCardInTheArray in aCardInTheArray.id == card.id}) {
             cards[chosenIndex].isFaceUp.toggle()
         }
     }
-    
-    func index(of card:Card) -> Int? {
-        for index in 0..<cards.count {
-            if cards[index].id == card.id {
-                return index
-            }
-        }
-        return nil //todo: Fix this!
-    }
+//
+//    func index(of card:Card) -> Int? {
+//        for index in 0..<cards.count {
+//            if cards[index].id == card.id {
+//                return index
+//            }
+//        }
+//        return nil //todo: Fix this!
+//    }
     
     struct Card:Identifiable {
         
