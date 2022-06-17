@@ -79,3 +79,4 @@ struct SignInView_Previews: PreviewProvider {
         SignInView().environmentObject(AuthenticationViewModel())
     }
 }
+
