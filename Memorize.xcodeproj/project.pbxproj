@@ -13,7 +13,17 @@
 		D92B8235273EA65E00C7B2D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92B8234273EA65E00C7B2D5 /* Preview Assets.xcassets */; };
 		D92CE0F127566152000377C1 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CE0F027566152000377C1 /* MemoryGame.swift */; };
 		D92CE0F32759273B000377C1 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CE0F22759273B000377C1 /* EmojiMemoryGame.swift */; };
-		D9F09878285CDBCF002D82FB /* Services in Resources */ = {isa = PBXBuildFile; fileRef = D9F09877285CDBCF002D82FB /* Services */; };
+		D94E5CE7285CDFC800DE1109 /* BirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CE5285CDFC800DE1109 /* BirthdayViewModel.swift */; };
+		D94E5CE8285CDFC800DE1109 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CE6285CDFC800DE1109 /* AuthenticationViewModel.swift */; };
+		D94E5CEA285CDFDD00DE1109 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CE9285CDFDD00DE1109 /* Birthday.swift */; };
+		D94E5CEE285CDFEA00DE1109 /* UserProfileImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CED285CDFEA00DE1109 /* UserProfileImageLoader.swift */; };
+		D94E5CEF285CDFEA00DE1109 /* BirthdayLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CEB285CDFEA00DE1109 /* BirthdayLoader.swift */; };
+		D94E5CF0285CDFEA00DE1109 /* GoogleSignInAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CEC285CDFEA00DE1109 /* GoogleSignInAuthenticator.swift */; };
+		D94E5CF8285CE08D00DE1109 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CF4285CE08D00DE1109 /* ContentView.swift */; };
+		D94E5CF9285CE08D00DE1109 /* BirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CF5285CE08D00DE1109 /* BirthdayView.swift */; };
+		D94E5CFA285CE08D00DE1109 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CF6285CE08D00DE1109 /* SignInView.swift */; };
+		D94E5CFB285CE08D00DE1109 /* UserProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CF7285CE08D00DE1109 /* UserProfileImageView.swift */; };
+		D94E5CFD285CE09D00DE1109 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5CFC285CE09C00DE1109 /* UserProfileView.swift */; };
 		D9F0987B285CDBE8002D82FB /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D9F0987A285CDBE8002D82FB /* GoogleSignIn */; };
 		D9F0987D285CDBE8002D82FB /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D9F0987C285CDBE8002D82FB /* GoogleSignInSwift */; };
 /* End PBXBuildFile section */
@@ -26,7 +36,18 @@
 		D92B8234273EA65E00C7B2D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D92CE0F027566152000377C1 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		D92CE0F22759273B000377C1 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
-		D9F09877285CDBCF002D82FB /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
+		D94E5CE5285CDFC800DE1109 /* BirthdayViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayViewModel.swift; sourceTree = "<group>"; };
+		D94E5CE6285CDFC800DE1109 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		D94E5CE9285CDFDD00DE1109 /* Birthday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		D94E5CEB285CDFEA00DE1109 /* BirthdayLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayLoader.swift; sourceTree = "<group>"; };
+		D94E5CEC285CDFEA00DE1109 /* GoogleSignInAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInAuthenticator.swift; sourceTree = "<group>"; };
+		D94E5CED285CDFEA00DE1109 /* UserProfileImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImageLoader.swift; sourceTree = "<group>"; };
+		D94E5CF4285CE08D00DE1109 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D94E5CF5285CE08D00DE1109 /* BirthdayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayView.swift; sourceTree = "<group>"; };
+		D94E5CF6285CE08D00DE1109 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D94E5CF7285CE08D00DE1109 /* UserProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileImageView.swift; sourceTree = "<group>"; };
+		D94E5CFC285CE09C00DE1109 /* UserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		D94E5CFF285CE17600DE1109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +82,12 @@
 		D92B822C273EA65D00C7B2D5 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				D9F09877285CDBCF002D82FB /* Services */,
+				D94E5CFF285CE17600DE1109 /* Info.plist */,
 				D92B822D273EA65D00C7B2D5 /* MemorizeApp.swift */,
-				D92B822F273EA65D00C7B2D5 /* EmojiMemoryGameView.swift */,
-				D92CE0F027566152000377C1 /* MemoryGame.swift */,
-				D92CE0F22759273B000377C1 /* EmojiMemoryGame.swift */,
+				D94E5CF1285CDFFB00DE1109 /* Services */,
+				D94E5CF2285CE02800DE1109 /* ViewModels */,
+				D94E5CF3285CE06A00DE1109 /* Models */,
+				D94E5CFE285CE0A100DE1109 /* Views */,
 				D92B8231273EA65E00C7B2D5 /* Assets.xcassets */,
 				D92B8233273EA65E00C7B2D5 /* Preview Content */,
 			);
@@ -78,6 +100,48 @@
 				D92B8234273EA65E00C7B2D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D94E5CF1285CDFFB00DE1109 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D94E5CEB285CDFEA00DE1109 /* BirthdayLoader.swift */,
+				D94E5CEC285CDFEA00DE1109 /* GoogleSignInAuthenticator.swift */,
+				D94E5CED285CDFEA00DE1109 /* UserProfileImageLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D94E5CF2285CE02800DE1109 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D94E5CE6285CDFC800DE1109 /* AuthenticationViewModel.swift */,
+				D94E5CE5285CDFC800DE1109 /* BirthdayViewModel.swift */,
+				D92CE0F22759273B000377C1 /* EmojiMemoryGame.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D94E5CF3285CE06A00DE1109 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D92CE0F027566152000377C1 /* MemoryGame.swift */,
+				D94E5CE9285CDFDD00DE1109 /* Birthday.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D94E5CFE285CE0A100DE1109 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D92B822F273EA65D00C7B2D5 /* EmojiMemoryGameView.swift */,
+				D94E5CFC285CE09C00DE1109 /* UserProfileView.swift */,
+				D94E5CF5285CE08D00DE1109 /* BirthdayView.swift */,
+				D94E5CF4285CE08D00DE1109 /* ContentView.swift */,
+				D94E5CF6285CE08D00DE1109 /* SignInView.swift */,
+				D94E5CF7285CE08D00DE1109 /* UserProfileImageView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F09878285CDBCF002D82FB /* Services in Resources */,
 				D92B8235273EA65E00C7B2D5 /* Preview Assets.xcassets in Resources */,
 				D92B8232273EA65E00C7B2D5 /* Assets.xcassets in Resources */,
 			);
@@ -158,10 +221,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D94E5CEF285CDFEA00DE1109 /* BirthdayLoader.swift in Sources */,
+				D94E5CF8285CE08D00DE1109 /* ContentView.swift in Sources */,
+				D94E5CE8285CDFC800DE1109 /* AuthenticationViewModel.swift in Sources */,
+				D94E5CF9285CE08D00DE1109 /* BirthdayView.swift in Sources */,
+				D94E5CEE285CDFEA00DE1109 /* UserProfileImageLoader.swift in Sources */,
 				D92CE0F127566152000377C1 /* MemoryGame.swift in Sources */,
 				D92B8230273EA65D00C7B2D5 /* EmojiMemoryGameView.swift in Sources */,
+				D94E5CFB285CE08D00DE1109 /* UserProfileImageView.swift in Sources */,
 				D92B822E273EA65D00C7B2D5 /* MemorizeApp.swift in Sources */,
+				D94E5CEA285CDFDD00DE1109 /* Birthday.swift in Sources */,
+				D94E5CFD285CE09D00DE1109 /* UserProfileView.swift in Sources */,
 				D92CE0F32759273B000377C1 /* EmojiMemoryGame.swift in Sources */,
+				D94E5CF0285CDFEA00DE1109 /* GoogleSignInAuthenticator.swift in Sources */,
+				D94E5CE7285CDFC800DE1109 /* BirthdayViewModel.swift in Sources */,
+				D94E5CFA285CE08D00DE1109 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +369,7 @@
 				DEVELOPMENT_TEAM = QV246Z8XA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memorize/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +399,7 @@
 				DEVELOPMENT_TEAM = QV246Z8XA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memorize/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
