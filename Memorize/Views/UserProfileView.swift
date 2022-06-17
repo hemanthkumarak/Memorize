@@ -79,3 +79,4 @@ struct UserProfileView_Previews: PreviewProvider {
         UserProfileView().environmentObject(AuthenticationViewModel())
     }
 }
+
