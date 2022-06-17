@@ -13,6 +13,9 @@
 		D92B8235273EA65E00C7B2D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92B8234273EA65E00C7B2D5 /* Preview Assets.xcassets */; };
 		D92CE0F127566152000377C1 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CE0F027566152000377C1 /* MemoryGame.swift */; };
 		D92CE0F32759273B000377C1 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CE0F22759273B000377C1 /* EmojiMemoryGame.swift */; };
+		D9F09878285CDBCF002D82FB /* Services in Resources */ = {isa = PBXBuildFile; fileRef = D9F09877285CDBCF002D82FB /* Services */; };
+		D9F0987B285CDBE8002D82FB /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D9F0987A285CDBE8002D82FB /* GoogleSignIn */; };
+		D9F0987D285CDBE8002D82FB /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D9F0987C285CDBE8002D82FB /* GoogleSignInSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,7 @@
 		D92B8234273EA65E00C7B2D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D92CE0F027566152000377C1 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		D92CE0F22759273B000377C1 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		D9F09877285CDBCF002D82FB /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F0987B285CDBE8002D82FB /* GoogleSignIn in Frameworks */,
+				D9F0987D285CDBE8002D82FB /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +61,7 @@
 		D92B822C273EA65D00C7B2D5 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				D9F09877285CDBCF002D82FB /* Services */,
 				D92B822D273EA65D00C7B2D5 /* MemorizeApp.swift */,
 				D92B822F273EA65D00C7B2D5 /* EmojiMemoryGameView.swift */,
 				D92CE0F027566152000377C1 /* MemoryGame.swift */,
@@ -89,6 +96,10 @@
 			dependencies = (
 			);
 			name = Memorize;
+			packageProductDependencies = (
+				D9F0987A285CDBE8002D82FB /* GoogleSignIn */,
+				D9F0987C285CDBE8002D82FB /* GoogleSignInSwift */,
+			);
 			productName = Memorize;
 			productReference = D92B822A273EA65D00C7B2D5 /* Memorize.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +128,9 @@
 				Base,
 			);
 			mainGroup = D92B8221273EA65D00C7B2D5;
+			packageReferences = (
+				D9F09879285CDBE8002D82FB /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = D92B822B273EA65D00C7B2D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F09878285CDBCF002D82FB /* Services in Resources */,
 				D92B8235273EA65E00C7B2D5 /* Preview Assets.xcassets in Resources */,
 				D92B8232273EA65E00C7B2D5 /* Assets.xcassets in Resources */,
 			);
@@ -349,6 +364,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9F09879285CDBE8002D82FB /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9F0987A285CDBE8002D82FB /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9F09879285CDBE8002D82FB /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		D9F0987C285CDBE8002D82FB /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9F09879285CDBE8002D82FB /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D92B8222273EA65D00C7B2D5 /* Project object */;
 }
