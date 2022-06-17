@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct EmojiMemoryGameContentView: View {
+struct ContentView: View {
     
     let viewModel: EmojiMemoryGame
     @State var emojiCount = 10
@@ -59,7 +59,7 @@ struct CardView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         let game = EmojiMemoryGame()
-        EmojiMemoryGameContentView(viewModel: game)
+        ContentView(viewModel: game)
     }
 }
 
