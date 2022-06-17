@@ -44,3 +44,4 @@ struct UserProfileImageView: View {
     #endif
   }
 }
+
