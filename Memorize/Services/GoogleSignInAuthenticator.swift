@@ -132,5 +132,4 @@ final class GoogleSignInAuthenticator: ObservableObject {
 
     #endif
   }
-
 }
