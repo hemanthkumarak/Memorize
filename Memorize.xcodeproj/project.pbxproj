@@ -8,21 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		D92B822E273EA65D00C7B2D5 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B822D273EA65D00C7B2D5 /* MemorizeApp.swift */; };
-		D92B8230273EA65D00C7B2D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B822F273EA65D00C7B2D5 /* ContentView.swift */; };
+		D92B8230273EA65D00C7B2D5 /* EmojiMemoryGameContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B822F273EA65D00C7B2D5 /* EmojiMemoryGameContentView.swift */; };
 		D92B8232273EA65E00C7B2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92B8231273EA65E00C7B2D5 /* Assets.xcassets */; };
 		D92B8235273EA65E00C7B2D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92B8234273EA65E00C7B2D5 /* Preview Assets.xcassets */; };
 		D92CE0F127566152000377C1 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CE0F027566152000377C1 /* MemoryGame.swift */; };
 		D92CE0F32759273B000377C1 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CE0F22759273B000377C1 /* EmojiMemoryGame.swift */; };
+		D9F0981B285B6F31002D82FB /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D9F0981A285B6F31002D82FB /* GoogleSignIn */; };
+		D9F0981D285B6F31002D82FB /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D9F0981C285B6F31002D82FB /* GoogleSignInSwift */; };
+		D9F0985C285C8B7E002D82FB /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0985B285C8B7E002D82FB /* AuthenticationViewModel.swift */; };
+		D9F0985E285C8BA1002D82FB /* GoogleSignInAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0985D285C8BA1002D82FB /* GoogleSignInAuthenticator.swift */; };
+		D9F09860285C8BAA002D82FB /* BirthdayLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0985F285C8BAA002D82FB /* BirthdayLoader.swift */; };
+		D9F09863285C8BFE002D82FB /* UserProfileImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F09862285C8BFE002D82FB /* UserProfileImageLoader.swift */; };
+		D9F09866285C8C66002D82FB /* BirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F09865285C8C66002D82FB /* BirthdayViewModel.swift */; };
+		D9F09869285C8C82002D82FB /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F09868285C8C82002D82FB /* Birthday.swift */; };
+		D9F0986E285C8CEF002D82FB /* BirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0986B285C8CEF002D82FB /* BirthdayView.swift */; };
+		D9F0986F285C8CEF002D82FB /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0986C285C8CEF002D82FB /* SignInView.swift */; };
+		D9F09870285C8CEF002D82FB /* UserProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0986D285C8CEF002D82FB /* UserProfileImageView.swift */; };
+		D9F09872285C8D19002D82FB /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F09871285C8D19002D82FB /* UserProfileView.swift */; };
+		D9F09876285C9313002D82FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F09875285C9313002D82FB /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D92B822A273EA65D00C7B2D5 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92B822D273EA65D00C7B2D5 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		D92B822F273EA65D00C7B2D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D92B822F273EA65D00C7B2D5 /* EmojiMemoryGameContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameContentView.swift; sourceTree = "<group>"; };
 		D92B8231273EA65E00C7B2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D92B8234273EA65E00C7B2D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D92CE0F027566152000377C1 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		D92CE0F22759273B000377C1 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		D9F0981E285B7A4B002D82FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F0985B285C8B7E002D82FB /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		D9F0985D285C8BA1002D82FB /* GoogleSignInAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInAuthenticator.swift; sourceTree = "<group>"; };
+		D9F0985F285C8BAA002D82FB /* BirthdayLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayLoader.swift; sourceTree = "<group>"; };
+		D9F09862285C8BFE002D82FB /* UserProfileImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileImageLoader.swift; sourceTree = "<group>"; };
+		D9F09865285C8C66002D82FB /* BirthdayViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayViewModel.swift; sourceTree = "<group>"; };
+		D9F09868285C8C82002D82FB /* Birthday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		D9F0986B285C8CEF002D82FB /* BirthdayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayView.swift; sourceTree = "<group>"; };
+		D9F0986C285C8CEF002D82FB /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D9F0986D285C8CEF002D82FB /* UserProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileImageView.swift; sourceTree = "<group>"; };
+		D9F09871285C8D19002D82FB /* UserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		D9F09875285C9313002D82FB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F0981B285B6F31002D82FB /* GoogleSignIn in Frameworks */,
+				D9F0981D285B6F31002D82FB /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,10 +82,12 @@
 		D92B822C273EA65D00C7B2D5 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				D9F0981E285B7A4B002D82FB /* Info.plist */,
 				D92B822D273EA65D00C7B2D5 /* MemorizeApp.swift */,
-				D92B822F273EA65D00C7B2D5 /* ContentView.swift */,
-				D92CE0F027566152000377C1 /* MemoryGame.swift */,
-				D92CE0F22759273B000377C1 /* EmojiMemoryGame.swift */,
+				D9F0986A285C8C9E002D82FB /* Views */,
+				D9F09861285C8BBE002D82FB /* Services */,
+				D9F09864285C8C53002D82FB /* ViewModels */,
+				D9F09867285C8C73002D82FB /* Models */,
 				D92B8231273EA65E00C7B2D5 /* Assets.xcassets */,
 				D92B8233273EA65E00C7B2D5 /* Preview Content */,
 			);
@@ -71,6 +100,48 @@
 				D92B8234273EA65E00C7B2D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9F09861285C8BBE002D82FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D9F0985D285C8BA1002D82FB /* GoogleSignInAuthenticator.swift */,
+				D9F09862285C8BFE002D82FB /* UserProfileImageLoader.swift */,
+				D9F0985F285C8BAA002D82FB /* BirthdayLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D9F09864285C8C53002D82FB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D92CE0F22759273B000377C1 /* EmojiMemoryGame.swift */,
+				D9F0985B285C8B7E002D82FB /* AuthenticationViewModel.swift */,
+				D9F09865285C8C66002D82FB /* BirthdayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D9F09867285C8C73002D82FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D92CE0F027566152000377C1 /* MemoryGame.swift */,
+				D9F09868285C8C82002D82FB /* Birthday.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9F0986A285C8C9E002D82FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9F09875285C9313002D82FB /* ContentView.swift */,
+				D92B822F273EA65D00C7B2D5 /* EmojiMemoryGameContentView.swift */,
+				D9F0986B285C8CEF002D82FB /* BirthdayView.swift */,
+				D9F0986C285C8CEF002D82FB /* SignInView.swift */,
+				D9F0986D285C8CEF002D82FB /* UserProfileImageView.swift */,
+				D9F09871285C8D19002D82FB /* UserProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +160,10 @@
 			dependencies = (
 			);
 			name = Memorize;
+			packageProductDependencies = (
+				D9F0981A285B6F31002D82FB /* GoogleSignIn */,
+				D9F0981C285B6F31002D82FB /* GoogleSignInSwift */,
+			);
 			productName = Memorize;
 			productReference = D92B822A273EA65D00C7B2D5 /* Memorize.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +192,9 @@
 				Base,
 			);
 			mainGroup = D92B8221273EA65D00C7B2D5;
+			packageReferences = (
+				D9F09819285B6F31002D82FB /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = D92B822B273EA65D00C7B2D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,9 +221,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F09869285C8C82002D82FB /* Birthday.swift in Sources */,
 				D92CE0F127566152000377C1 /* MemoryGame.swift in Sources */,
-				D92B8230273EA65D00C7B2D5 /* ContentView.swift in Sources */,
+				D9F09863285C8BFE002D82FB /* UserProfileImageLoader.swift in Sources */,
+				D9F0986E285C8CEF002D82FB /* BirthdayView.swift in Sources */,
+				D9F0985C285C8B7E002D82FB /* AuthenticationViewModel.swift in Sources */,
+				D92B8230273EA65D00C7B2D5 /* EmojiMemoryGameContentView.swift in Sources */,
+				D9F0986F285C8CEF002D82FB /* SignInView.swift in Sources */,
+				D9F09872285C8D19002D82FB /* UserProfileView.swift in Sources */,
 				D92B822E273EA65D00C7B2D5 /* MemorizeApp.swift in Sources */,
+				D9F0985E285C8BA1002D82FB /* GoogleSignInAuthenticator.swift in Sources */,
+				D9F09870285C8CEF002D82FB /* UserProfileImageView.swift in Sources */,
+				D9F09876285C9313002D82FB /* ContentView.swift in Sources */,
+				D9F09866285C8C66002D82FB /* BirthdayViewModel.swift in Sources */,
+				D9F09860285C8BAA002D82FB /* BirthdayLoader.swift in Sources */,
 				D92CE0F32759273B000377C1 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +369,7 @@
 				DEVELOPMENT_TEAM = QV246Z8XA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memorize/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +399,7 @@
 				DEVELOPMENT_TEAM = QV246Z8XA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memorize/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -349,6 +440,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9F09819285B6F31002D82FB /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9F0981A285B6F31002D82FB /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9F09819285B6F31002D82FB /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		D9F0981C285B6F31002D82FB /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9F09819285B6F31002D82FB /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D92B8222273EA65D00C7B2D5 /* Project object */;
 }
